@@ -1,0 +1,36 @@
+package threadtest;
+
+public class TicketSaler  implements Runnable{
+	private String name;
+	private ServiceTest service;
+	
+
+	public TicketSaler(String name, ServiceTest service) {
+		super();
+		this.name = name;
+		this.service = service;
+	}
+
+
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		while(service.getRemaining()>0){
+			synchronized(this){
+				System.out.println(Thread.currentThread().getName()+"出票第"+service.getRemaining()+"张数");
+				int remaining=service.saleTicket(1);
+				if(remaining>=0){
+					System.out.println("出票成功！剩余"+remaining+"张数");
+					
+				}else{
+					System.out.println("出票失败！该票售完");
+				}
+			}
+		}
+		
+	}
+	
+
+}

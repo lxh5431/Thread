@@ -1,0 +1,11 @@
+package concurrentdemo;
+
+public class Philosophers implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

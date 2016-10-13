@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-config>  
+    <action path="/servlet/delUser" type="com.lxh.servlet.DelUserAction">  
+        <forward name="success">/del_success.jsp</forward>  
+        <forward name="error">/del_error.jsp</forward>  
+    </action>  
+      
+    <action path="/servlet/addUser" type="com.lxh.servlet.AddUserAction">  
+        <forward name="success">/add_success.jsp</forward>  
+        <forward name="error">/add_error.jsp</forward>  
+    </action>  
+      
+    <action path="/servlet/modifyUser" type="com.lxh.servlet.ModifyUserAction">  
+        <forward name="success">/modify_success.jsp</forward>  
+        <forward name="error">/modify_error.jsp</forward>  
+    </action>  
+      
+    <action path="/servlet/queryUser" type="com.lxh.servlet.QueryUserAction">  
+        <forward name="success">/query_success.jsp</forward>  
+        <forward name="error">/query_error.jsp</forward>  
+    </action>  
+      
+</action-config>  

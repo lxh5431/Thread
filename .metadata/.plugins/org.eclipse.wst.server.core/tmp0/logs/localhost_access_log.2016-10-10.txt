@@ -1,0 +1,11 @@
+127.0.0.1 - - [10/Oct/2016:14:32:26 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:32:27 +0800] "GET /struts2/index.jsp HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:32:32 +0800] "POST /struts2/servlet/addUser.action HTTP/1.1" 405 1110
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:32:41 +0800] "POST /struts2/servlet/addUser.action HTTP/1.1" 405 1110
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:35:23 +0800] "GET /struts2/index.jsp HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:35:28 +0800] "POST /struts2/servlet/addUser.action HTTP/1.1" 405 1110
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:36:40 +0800] "POST /struts2/servlet/addUser.action HTTP/1.1" 405 1110
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:37:05 +0800] "POST /struts2/servlet/addUser.action HTTP/1.1" 405 1110
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:37:18 +0800] "GET /struts2/index.jsp HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [10/Oct/2016:14:37:21 +0800] "GET /struts2/servlet/addUser.action?username=jhrtrjtk HTTP/1.1" 404 1040
+192.168.253.5 - - [10/Oct/2016:15:31:40 +0800] "GET / HTTP/1.1" 400 -

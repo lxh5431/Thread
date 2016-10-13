@@ -1,0 +1,10 @@
+package threadtest;
+
+public class TicketingSystem {
+	public static void main(String[] args) {
+		ServiceTest service=new ServiceTest("北京--》赣州",500);
+		TicketSaler ticketSaler=new TicketSaler("售票程序",service);
+		
+	}
+
+}
